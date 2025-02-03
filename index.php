@@ -105,7 +105,7 @@ ini_set('display_errors', 1);
         <a href="?controller=shed&action=index" class="<?php echo ($controller == 'shed' && $action == 'index') ? 'active' : ''; ?>">Shed</a>
         <a href="?controller=staff&action=index" class="<?php echo ($controller == 'staff' && $action == 'index') ? 'active' : ''; ?>">Staff</a>
         <a href="?controller=schedule&action=index" class="<?php echo ($controller == 'schedule' && $action == 'index') ? 'active' : ''; ?>">Schedule</a>
-        <a href="?controller=shedopen&action=index" class="<?php echo ($controller == 'shedopen' && $action == 'index') ? 'active' : ''; ?>">Shedopen</a>
+        <a href="?controller=shedopen&action=index" class="<?php echo ($controller == 'shedopen' && $action == 'index') ? 'active' : ''; ?>">Shedopenaaaaaaaaaaaaaa</a>
     </div>
     <nav class="navbar navbar-light bg-white" style="height: 50px;">
         <div class="container-fluid" style="justify-content: end;">

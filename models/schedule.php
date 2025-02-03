@@ -72,7 +72,7 @@ class Schedule
        
             $sql = "SELECT w.workAtId , w.date as date,  s.fname as staffname, s.position as position, w.shedOpen_shedOpenId as shed FROM workAt w 
             INNER JOIN staff s on w.staff_staffId = s.staffId
-            where (s.fname LIKE '%$key%' )";
+            where (s.fname LIKE '%$key%' OR s.lname LIKE '%$key%' )";
             $result = $conn->query($sql);
 
             while ($my_row = $result->fetch_assoc()) {

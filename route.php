@@ -1,5 +1,5 @@
 <?php
-$controllers = array('pages' => ['home' , 'error'] 
+$controllers = array('pages' => ['home' , 'error','login'] 
 , 'shed' => ['index' , 'form_addshed','form_editshed' , 'editshed','form_deleteshed','deleteshed' , 'addshed'] 
 , 'staff' => ['addschedule','form_addschedule','index' , 'form_addstaff' , 'form_editstaff' , 'addstaff' , 'editstaff'  ,'form_deletestaff' , 'deletestaff'] ,
 'schedule' => ['index' , 'form_deleteschedule' , 'deleteschedule' ,'search'] 
@@ -46,6 +46,7 @@ if(array_key_exists($controller, $controllers))
         call($controller,$action);
     }
     else{
+        echo"asdfasdfasdf";
         call('pages','error');
     }
 } 

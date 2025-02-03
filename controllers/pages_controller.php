@@ -11,6 +11,11 @@ class PagesController
     {
         require('view/pages/error.php');
     }
+
+    public function login()
+    {
+        require('view/pages/login.php');
+    }
 }
 
 
